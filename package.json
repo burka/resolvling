@@ -1,0 +1,23 @@
+{
+  "name": "resolvling",
+  "version": "0.1.0",
+  "description": "Self resolving lazy objects for promises",
+  "main": "resolvling.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burka/resolvling.git"
+  },
+  "keywords": [
+    "angular",
+    "promises",
+    "resource"
+  ],
+  "author": "Florian Burka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burka/resolvling/issues"
+  },
+  "homepage": "https://github.com/burka/resolvling#readme"
+}
