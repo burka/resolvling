@@ -8,12 +8,19 @@ module.exports = function(config) {
       '*.js',
       'tests/*.js'
     ],
-    reporters: ['progress'],
+    preprocessors: {
+      '*.js': ['coverage']
+    },
+    reporters: ['progress', 'coverage'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
     browsers: ['PhantomJS'],
     singleRun: false,
+     coverageReporter: {
+      type : 'html',
+      dir : 'coverage/'
+    }
   })
 }

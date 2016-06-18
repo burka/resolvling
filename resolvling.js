@@ -26,7 +26,7 @@
     }
 
     Resolvling.prototype.toJSON = function() {
-      var data = extend({}, this);
+      var data = angular.extend({}, this);
       delete data.$promise;
       delete data.$resolved;
       return data;
@@ -46,7 +46,7 @@
     }
 
     function insertDataIntoObject(data, value) {
-      if (!angular.isObject(data) || !angular.isObject(value))
+      if (angular.isArray(data) || angular.isArray(value))
         throw new Error(
           'Please provide an object as value and data. ' +
           'Use Updateable.insertDataIntoArray(data, array) if you wish to update an array.')
