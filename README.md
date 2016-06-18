@@ -2,8 +2,8 @@
 
 Self resolving objects for angular promises.
 
-[![CircleCI](https://circleci.com/gh/burka/resolvling/tree/master.svg?style=shield)](https://circleci.com/gh/burka/resolvling/tree/master)
-
+[![CircleCI](https://circleci.com/gh/burka/resolvling/tree/master.svg?style=shield)](https://circleci.com/gh/burka/resolvling/tree/master) 
+[![codecov](https://codecov.io/gh/burka/resolvling/branch/master/graph/badge.svg)](https://codecov.io/gh/burka/resolvling)
 
 ````
 function get(enumType){
