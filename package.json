@@ -3,7 +3,9 @@
   "version": "0.1.1",
   "description": "Self resolving lazy objects for promises",
   "main": "resolvling.js",
-  "scripts": {},
+  "scripts": {
+    "test": "karma start --single-run"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/burka/resolvling.git"
@@ -18,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/burka/resolvling/issues"
   },
-  "homepage": "https://github.com/burka/resolvling#readme"
+  "homepage": "https://github.com/burka/resolvling#readme",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "angular-mocks": "^1.5.7",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
 }
