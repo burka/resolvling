@@ -18,9 +18,13 @@ module.exports = function(config) {
     autoWatch: true,
     browsers: ['PhantomJS'],
     singleRun: false,
-     coverageReporter: {
-      type : 'html',
-      dir : 'coverage/'
+    coverageReporter: {
+      reporters: [{
+        type: 'lcov'
+      }, {
+        type: 'html',
+        dir: 'coverage/'
+      }]
     }
   })
 }
